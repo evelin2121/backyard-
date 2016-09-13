@@ -1,0 +1,78 @@
+.logo { 
+	width: 200px;
+	height: 50px;
+	padding-left: 30px;
+	padding-top: 50px;
+}
+
+li { 
+	display: inline-block;
+	padding: 20px;
+	padding-top: 60px;
+	font-size: 10px;
+}
+
+a { color: #585259;}  
+
+.cuadro { 
+	background-color: #2C292D;
+
+}
+
+h1 { 
+	color: #6E6671; 
+	font-size: 3em;
+	padding-top: 50px;
+	padding-left: 150px;
+}  
+.parrafo-uno { 
+	color: #6E6671;
+	padding-top: 30px;
+	padding-left: 150px;
+	text-align: center;
+}  
+
+.fondo { 
+	background-color: #4E4851;
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	border-radius: 10px;
+
+}  
+
+.container-uno { 
+	padding: 100px;
+} 
+
+h4 { padding-left: 50px;
+	color: #746B79;
+	padding-bottom: 10px;
+	
+}
+form { padding: 10px;
+
+}    
+input { 
+	
+	padding: 10px;
+	
+} 
+.boton { 
+	border-radius: 5px;
+	border: 2px solid #6495ED;
+	background-color: #BCD2EE;
+	height: 30px;
+	width: 100px;
+	margin: auto;
+	text-align: center;
+} 
+.fin { padding-left: 50px;}     
+
+@media (min-width: 635px) and  (max-width: 824px) {
+	[class*="col-"] 
+
+	.container-uno { width: 100px; } 
+	
+}                         
